@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-telegram-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "axios": "^1.6.2",
+    "big.js": "^6.2.1"
+  }
+}
